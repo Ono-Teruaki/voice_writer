@@ -1,0 +1,150 @@
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/HotKey.build/HotKey.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/HotKey.build/HotKeysController.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/HotKey.build/Key.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/HotKey.build/KeyCombo+System.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/HotKey.build/KeyCombo.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/HotKey.build/NSEventModifierFlags+HotKey.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Hub.build/BinaryDistinct.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Hub.build/Config.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Hub.build/Downloader.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Hub.build/Hub.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Hub.build/HubApi.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Hub.build/JSONSerialization+BOM.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Hub.build/resource_bundle_accessor.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/InternalCollectionsUtilities.build/Debugging.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/InternalCollectionsUtilities.build/Descriptions.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/InternalCollectionsUtilities.build/FixedWidthInteger+roundUpToPowerOfTwo.swift.o
+'/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/InternalCollectionsUtilities.build/Integer rank.swift.o'
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/InternalCollectionsUtilities.build/LifetimeOverride.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/InternalCollectionsUtilities.build/RandomAccessCollection+Offsets.swift.o
+'/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/InternalCollectionsUtilities.build/UInt+first and last set bit.swift.o'
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/InternalCollectionsUtilities.build/UInt+reversed.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/InternalCollectionsUtilities.build/UnsafeBufferPointer+Extras.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/InternalCollectionsUtilities.build/UnsafeMutableBufferPointer+Extras.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/InternalCollectionsUtilities.build/UnsafeMutableRawBufferPointer+Extras.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/InternalCollectionsUtilities.build/UnsafeRawBufferPointer+Extras.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/InternalCollectionsUtilities.build/_SortedCollection.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/InternalCollectionsUtilities.build/_UniqueCollection.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/InternalCollectionsUtilities.build/_UnsafeBitSet+Index.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/InternalCollectionsUtilities.build/_UnsafeBitSet+_Word.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/InternalCollectionsUtilities.build/_UnsafeBitSet.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Jinja.build/AST.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Jinja.build/Error.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Jinja.build/Filters.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Jinja.build/Globals.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Jinja.build/Interpreter.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Jinja.build/Lexer.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Jinja.build/Macro.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Jinja.build/Parser.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Jinja.build/PropertyMembers.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Jinja.build/Template.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Jinja.build/Tests.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Jinja.build/Token.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Jinja.build/Utilities.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Jinja.build/Value.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedDictionary+Codable.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedDictionary+CustomReflectable.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedDictionary+Deprecations.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedDictionary+Descriptions.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedDictionary+Elements.SubSequence.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedDictionary+Elements.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedDictionary+Equatable.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedDictionary+ExpressibleByDictionaryLiteral.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedDictionary+Hashable.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedDictionary+Initializers.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedDictionary+Invariants.swift.o
+'/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedDictionary+Partial MutableCollection.swift.o'
+'/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedDictionary+Partial RangeReplaceableCollection.swift.o'
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedDictionary+Sendable.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedDictionary+Sequence.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedDictionary+Values.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedDictionary.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedSet+Codable.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedSet+CustomReflectable.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedSet+Descriptions.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedSet+Diffing.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedSet+Equatable.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedSet+ExpressibleByArrayLiteral.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedSet+Hashable.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedSet+Initializers.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedSet+Insertions.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedSet+Invariants.swift.o
+'/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedSet+Partial MutableCollection.swift.o'
+'/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedSet+Partial RangeReplaceableCollection.swift.o'
+'/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedSet+Partial SetAlgebra formIntersection.swift.o'
+'/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedSet+Partial SetAlgebra formSymmetricDifference.swift.o'
+'/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedSet+Partial SetAlgebra formUnion.swift.o'
+'/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedSet+Partial SetAlgebra intersection.swift.o'
+'/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedSet+Partial SetAlgebra isDisjoint.swift.o'
+'/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedSet+Partial SetAlgebra isEqualSet.swift.o'
+'/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedSet+Partial SetAlgebra isStrictSubset.swift.o'
+'/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedSet+Partial SetAlgebra isStrictSuperset.swift.o'
+'/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedSet+Partial SetAlgebra isSubset.swift.o'
+'/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedSet+Partial SetAlgebra isSuperset.swift.o'
+'/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedSet+Partial SetAlgebra subtract.swift.o'
+'/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedSet+Partial SetAlgebra subtracting.swift.o'
+'/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedSet+Partial SetAlgebra symmetricDifference.swift.o'
+'/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedSet+Partial SetAlgebra union.swift.o'
+'/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedSet+Partial SetAlgebra+Basics.swift.o'
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedSet+RandomAccessCollection.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedSet+ReserveCapacity.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedSet+Sendable.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedSet+SubSequence.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedSet+Testing.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedSet+UnorderedView.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedSet+UnstableInternals.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/OrderedSet.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/_HashTable+Bucket.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/_HashTable+BucketIterator.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/_HashTable+Constants.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/_HashTable+CustomStringConvertible.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/_HashTable+Testing.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/_HashTable+UnsafeHandle.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/_HashTable.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/_Hashtable+Header.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/OrderedCollections.build/_UnsafeBitset.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Tokenizers.build/BPETokenizer.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Tokenizers.build/BertTokenizer.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Tokenizers.build/ByteEncoder.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Tokenizers.build/Decoder.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Tokenizers.build/Normalizer.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Tokenizers.build/PostProcessor.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Tokenizers.build/PreTokenizer.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Tokenizers.build/String+PreTokenization.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Tokenizers.build/TokenLattice.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Tokenizers.build/Tokenizer.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Tokenizers.build/Trie.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Tokenizers.build/UnigramTokenizer.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Tokenizers.build/Utils.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/VoiceWriter.build/AppState.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/VoiceWriter.build/AudioRecorder.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/VoiceWriter.build/HotkeyManager.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/VoiceWriter.build/OverlayPanel.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/VoiceWriter.build/OverlayView.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/VoiceWriter.build/TextInputSimulator.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/VoiceWriter.build/VoiceWriterApp.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/VoiceWriter.build/WhisperTranscriber.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/WhisperKit.build/AudioChunker.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/WhisperKit.build/AudioEncoder.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/WhisperKit.build/AudioProcessor.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/WhisperKit.build/AudioStreamTranscriber.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/WhisperKit.build/Concurrency.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/WhisperKit.build/Configurations.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/WhisperKit.build/EnergyVAD.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/WhisperKit.build/Extensions+Internal.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/WhisperKit.build/Extensions+Public.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/WhisperKit.build/FeatureExtractor.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/WhisperKit.build/Logging.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/WhisperKit.build/LogitsFilter.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/WhisperKit.build/ModelUtilities.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/WhisperKit.build/Models.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/WhisperKit.build/ResultWriter.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/WhisperKit.build/SegmentSeeker.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/WhisperKit.build/TextDecoder.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/WhisperKit.build/TextUtilities.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/WhisperKit.build/TokenSampler.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/WhisperKit.build/TranscribeTask.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/WhisperKit.build/TranscriptionUtilities.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/WhisperKit.build/VoiceActivityDetector.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/WhisperKit.build/WhisperError.swift.o
+/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/WhisperKit.build/WhisperKit.swift.o

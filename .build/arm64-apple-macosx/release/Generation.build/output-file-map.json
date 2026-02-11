@@ -1,0 +1,61 @@
+{
+  "": {
+    "dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/Generation.d",
+    "object": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/Generation.o",
+    "swift-dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/master.swiftdeps"
+  },
+  "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/checkouts/swift-transformers/Sources/Generation/Decoders.swift": {
+    "object": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/Decoders.swift.o",
+    "swiftmodule": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/Decoders~partial.swiftmodule",
+    "swift-dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/Decoders.swiftdeps",
+    "diagnostics": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/Decoders.dia"
+  },
+  "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/checkouts/swift-transformers/Sources/Generation/Generation.swift": {
+    "object": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/Generation.swift.o",
+    "swiftmodule": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/Generation~partial.swiftmodule",
+    "swift-dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/Generation.swiftdeps",
+    "diagnostics": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/Generation.dia"
+  },
+  "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/checkouts/swift-transformers/Sources/Generation/GenerationConfig.swift": {
+    "object": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/GenerationConfig.swift.o",
+    "swiftmodule": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/GenerationConfig~partial.swiftmodule",
+    "swift-dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/GenerationConfig.swiftdeps",
+    "diagnostics": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/GenerationConfig.dia"
+  },
+  "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/checkouts/swift-transformers/Sources/Generation/LogitsWarper/LogitsProcessor.swift": {
+    "object": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/LogitsProcessor.swift.o",
+    "swiftmodule": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/LogitsProcessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/LogitsProcessor.swiftdeps",
+    "diagnostics": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/LogitsProcessor.dia"
+  },
+  "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/checkouts/swift-transformers/Sources/Generation/LogitsWarper/MinPLogitsWarper.swift": {
+    "object": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/MinPLogitsWarper.swift.o",
+    "swiftmodule": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/MinPLogitsWarper~partial.swiftmodule",
+    "swift-dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/MinPLogitsWarper.swiftdeps",
+    "diagnostics": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/MinPLogitsWarper.dia"
+  },
+  "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/checkouts/swift-transformers/Sources/Generation/LogitsWarper/RepetitionPenaltyLogitsProcessor.swift": {
+    "object": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/RepetitionPenaltyLogitsProcessor.swift.o",
+    "swiftmodule": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/RepetitionPenaltyLogitsProcessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/RepetitionPenaltyLogitsProcessor.swiftdeps",
+    "diagnostics": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/RepetitionPenaltyLogitsProcessor.dia"
+  },
+  "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/checkouts/swift-transformers/Sources/Generation/LogitsWarper/TemperatureLogitsWarper.swift": {
+    "object": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/TemperatureLogitsWarper.swift.o",
+    "swiftmodule": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/TemperatureLogitsWarper~partial.swiftmodule",
+    "swift-dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/TemperatureLogitsWarper.swiftdeps",
+    "diagnostics": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/TemperatureLogitsWarper.dia"
+  },
+  "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/checkouts/swift-transformers/Sources/Generation/LogitsWarper/TopKLogitsWarper.swift": {
+    "object": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/TopKLogitsWarper.swift.o",
+    "swiftmodule": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/TopKLogitsWarper~partial.swiftmodule",
+    "swift-dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/TopKLogitsWarper.swiftdeps",
+    "diagnostics": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/TopKLogitsWarper.dia"
+  },
+  "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/checkouts/swift-transformers/Sources/Generation/LogitsWarper/TopPLogitsWarper.swift": {
+    "object": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/TopPLogitsWarper.swift.o",
+    "swiftmodule": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/TopPLogitsWarper~partial.swiftmodule",
+    "swift-dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/TopPLogitsWarper.swiftdeps",
+    "diagnostics": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/Generation.build/TopPLogitsWarper.dia"
+  }
+}

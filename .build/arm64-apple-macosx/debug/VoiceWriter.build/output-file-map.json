@@ -1,0 +1,61 @@
+{
+  "": {
+    "swift-dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/master.swiftdeps"
+  },
+  "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/Sources/VoiceWriter/AppState.swift": {
+    "dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/AppState.d",
+    "object": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/AppState.swift.o",
+    "swiftmodule": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/AppState~partial.swiftmodule",
+    "swift-dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/AppState.swiftdeps",
+    "diagnostics": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/AppState.dia"
+  },
+  "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/Sources/VoiceWriter/AudioRecorder.swift": {
+    "dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/AudioRecorder.d",
+    "object": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/AudioRecorder.swift.o",
+    "swiftmodule": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/AudioRecorder~partial.swiftmodule",
+    "swift-dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/AudioRecorder.swiftdeps",
+    "diagnostics": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/AudioRecorder.dia"
+  },
+  "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/Sources/VoiceWriter/HotkeyManager.swift": {
+    "dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/HotkeyManager.d",
+    "object": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/HotkeyManager.swift.o",
+    "swiftmodule": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/HotkeyManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/HotkeyManager.swiftdeps",
+    "diagnostics": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/HotkeyManager.dia"
+  },
+  "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/Sources/VoiceWriter/OverlayPanel.swift": {
+    "dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/OverlayPanel.d",
+    "object": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/OverlayPanel.swift.o",
+    "swiftmodule": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/OverlayPanel~partial.swiftmodule",
+    "swift-dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/OverlayPanel.swiftdeps",
+    "diagnostics": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/OverlayPanel.dia"
+  },
+  "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/Sources/VoiceWriter/OverlayView.swift": {
+    "dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/OverlayView.d",
+    "object": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/OverlayView.swift.o",
+    "swiftmodule": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/OverlayView~partial.swiftmodule",
+    "swift-dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/OverlayView.swiftdeps",
+    "diagnostics": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/OverlayView.dia"
+  },
+  "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/Sources/VoiceWriter/TextInputSimulator.swift": {
+    "dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/TextInputSimulator.d",
+    "object": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/TextInputSimulator.swift.o",
+    "swiftmodule": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/TextInputSimulator~partial.swiftmodule",
+    "swift-dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/TextInputSimulator.swiftdeps",
+    "diagnostics": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/TextInputSimulator.dia"
+  },
+  "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/Sources/VoiceWriter/VoiceWriterApp.swift": {
+    "dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/VoiceWriterApp.d",
+    "object": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/VoiceWriterApp.swift.o",
+    "swiftmodule": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/VoiceWriterApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/VoiceWriterApp.swiftdeps",
+    "diagnostics": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/VoiceWriterApp.dia"
+  },
+  "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/Sources/VoiceWriter/WhisperTranscriber.swift": {
+    "dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/WhisperTranscriber.d",
+    "object": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/WhisperTranscriber.swift.o",
+    "swiftmodule": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/WhisperTranscriber~partial.swiftmodule",
+    "swift-dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/WhisperTranscriber.swiftdeps",
+    "diagnostics": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/VoiceWriter.build/WhisperTranscriber.dia"
+  }
+}

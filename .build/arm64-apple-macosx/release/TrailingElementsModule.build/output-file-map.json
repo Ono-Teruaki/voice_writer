@@ -1,0 +1,25 @@
+{
+  "": {
+    "dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/TrailingElementsModule.build/TrailingElementsModule.d",
+    "object": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/TrailingElementsModule.build/TrailingElementsModule.o",
+    "swift-dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/TrailingElementsModule.build/master.swiftdeps"
+  },
+  "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/checkouts/swift-collections/Sources/TrailingElementsModule/TrailingArray.swift": {
+    "object": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/TrailingElementsModule.build/TrailingArray.swift.o",
+    "swiftmodule": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/TrailingElementsModule.build/TrailingArray~partial.swiftmodule",
+    "swift-dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/TrailingElementsModule.build/TrailingArray.swiftdeps",
+    "diagnostics": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/TrailingElementsModule.build/TrailingArray.dia"
+  },
+  "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/checkouts/swift-collections/Sources/TrailingElementsModule/TrailingElements.swift": {
+    "object": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/TrailingElementsModule.build/TrailingElements.swift.o",
+    "swiftmodule": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/TrailingElementsModule.build/TrailingElements~partial.swiftmodule",
+    "swift-dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/TrailingElementsModule.build/TrailingElements.swiftdeps",
+    "diagnostics": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/TrailingElementsModule.build/TrailingElements.dia"
+  },
+  "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/checkouts/swift-collections/Sources/TrailingElementsModule/TrailingPadding.swift": {
+    "object": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/TrailingElementsModule.build/TrailingPadding.swift.o",
+    "swiftmodule": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/TrailingElementsModule.build/TrailingPadding~partial.swiftmodule",
+    "swift-dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/TrailingElementsModule.build/TrailingPadding.swiftdeps",
+    "diagnostics": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/release/TrailingElementsModule.build/TrailingPadding.dia"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/ArgumentParserToolInfo.build/master.swiftdeps"
+  },
+  "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/checkouts/swift-argument-parser/Sources/ArgumentParserToolInfo/ToolInfo.swift": {
+    "dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/ArgumentParserToolInfo.build/ToolInfo.d",
+    "object": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/ArgumentParserToolInfo.build/ToolInfo.swift.o",
+    "swiftmodule": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/ArgumentParserToolInfo.build/ToolInfo~partial.swiftmodule",
+    "swift-dependencies": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/ArgumentParserToolInfo.build/ToolInfo.swiftdeps",
+    "diagnostics": "/Users/onoakiraaki/Documents/programming/vibe_coding/voice_writer/.build/arm64-apple-macosx/debug/ArgumentParserToolInfo.build/ToolInfo.dia"
+  }
+}

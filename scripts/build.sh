@@ -33,6 +33,12 @@ cp "$EXECUTABLE" "$APP_BUNDLE/Contents/MacOS/$APP_NAME"
 # Copy Info.plist
 cp "$PROJECT_DIR/Resources/Info.plist" "$APP_BUNDLE/Contents/Info.plist"
 
+# Copy app icon
+if [ -f "$PROJECT_DIR/Resources/AppIcon.icns" ]; then
+    cp "$PROJECT_DIR/Resources/AppIcon.icns" "$APP_BUNDLE/Contents/Resources/AppIcon.icns"
+    echo "🎨 App icon added"
+fi
+
 # Ad-hoc code sign
 echo "🔏 Code signing (ad-hoc)..."
 codesign --force --deep --sign - "$APP_BUNDLE"

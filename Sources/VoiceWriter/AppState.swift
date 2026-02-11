@@ -68,9 +68,9 @@ final class AppState: ObservableObject {
             }
         }
         
-        // Check accessibility permissions
+        // Check and prompt accessibility permissions
         if !TextInputSimulator.checkAccessibilityPermissions() {
-            // Permission dialog will be shown automatically
+            TextInputSimulator.promptAccessibilityPermissions()
         }
     }
     
@@ -124,19 +124,29 @@ final class AppState: ObservableObject {
         
         Task {
             do {
-                // Final transcription with full audio
-                let finalText = try await transcriber.transcribe(audioBuffer: finalBuffer)
+                // Final transcription with full audio (uses VAD + full accuracy settings)
+                let finalText = try await transcriber.transcribeFinal(audioBuffer: finalBuffer)
                 
                 self.currentTranscription = finalText
                 
                 // Hide overlay
                 self.overlayPanel?.hidePanel()
                 
+                print("[VoiceWriter] Transcription complete: \(finalText.prefix(50))...")
+                
                 // Input text to active application
                 if !finalText.isEmpty {
-                    // Small delay to ensure overlay is hidden and focus returns
-                    try? await Task.sleep(nanoseconds: 200_000_000) // 200ms
-                    self.textInputSimulator.inputText(finalText)
+                    // Wait for overlay to fully hide and focus returns to previous app
+                    try? await Task.sleep(nanoseconds: 600_000_000) // 600ms
+                    
+                    // Run text input on a background thread to avoid blocking main actor
+                    let simulator = self.textInputSimulator
+                    let textToInput = finalText
+                    DispatchQueue.global(qos: .userInitiated).async {
+                        print("[VoiceWriter] Pasting text to active app...")
+                        simulator.inputText(textToInput)
+                        print("[VoiceWriter] Paste completed")
+                    }
                 }
                 
                 self.state = .idle
@@ -162,7 +172,7 @@ final class AppState: ObservableObject {
         defer { isStreamTranscribing = false }
         
         do {
-            let text = try await transcriber.transcribe(audioBuffer: buffer)
+            let text = try await transcriber.transcribeStreaming(audioBuffer: buffer)
             if state == .recording { // Check we're still recording
                 self.currentTranscription = text
                 // Refresh overlay view

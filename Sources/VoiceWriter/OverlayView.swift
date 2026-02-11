@@ -1,59 +1,83 @@
 import SwiftUI
 
 /// SwiftUI view displayed inside the overlay panel.
-/// Shows recording status indicator and streaming transcription text.
+/// Shows recording status indicator and streaming transcription text with auto-scroll.
 struct OverlayView: View {
     @ObservedObject var appState: AppState
     
     var body: some View {
-        HStack(spacing: 12) {
-            // Recording indicator (pulsing red dot)
-            Circle()
-                .fill(Color.red)
-                .frame(width: 12, height: 12)
-                .opacity(appState.recordingIndicatorOpacity)
-                .animation(
-                    .easeInOut(duration: 0.6).repeatForever(autoreverses: true),
-                    value: appState.recordingIndicatorOpacity
-                )
-            
-            VStack(alignment: .leading, spacing: 4) {
-                // Status label
+        VStack(alignment: .leading, spacing: 8) {
+            // Header: status + shortcut hint
+            HStack {
+                // Recording indicator (pulsing red dot)
+                Circle()
+                    .fill(Color.red)
+                    .frame(width: 10, height: 10)
+                    .opacity(appState.recordingIndicatorOpacity)
+                    .animation(
+                        .easeInOut(duration: 0.6).repeatForever(autoreverses: true),
+                        value: appState.recordingIndicatorOpacity
+                    )
+                
                 Text(statusText)
-                    .font(.system(size: 11, weight: .medium))
+                    .font(.system(size: 12, weight: .medium))
                     .foregroundColor(.secondary)
                 
-                // Transcription text
-                if appState.currentTranscription.isEmpty {
-                    Text("話してください...")
-                        .font(.system(size: 15))
-                        .foregroundColor(.secondary)
-                        .italic()
-                } else {
-                    Text(appState.currentTranscription)
-                        .font(.system(size: 15, weight: .regular))
-                        .foregroundColor(.primary)
-                        .lineLimit(3)
-                        .fixedSize(horizontal: false, vertical: true)
-                }
+                Spacer()
+                
+                // Keyboard shortcut hint
+                Text("⌘⌥V で確定")
+                    .font(.system(size: 10))
+                    .foregroundColor(.secondary.opacity(0.6))
+                    .padding(.horizontal, 6)
+                    .padding(.vertical, 3)
+                    .background(
+                        RoundedRectangle(cornerRadius: 4)
+                            .fill(Color.primary.opacity(0.06))
+                    )
             }
             
-            Spacer()
+            // Divider
+            Rectangle()
+                .fill(Color.primary.opacity(0.08))
+                .frame(height: 1)
             
-            // Keyboard shortcut hint
-            Text("⌘⌥V で確定")
-                .font(.system(size: 10))
-                .foregroundColor(.secondary.opacity(0.6))
-                .padding(.horizontal, 6)
-                .padding(.vertical, 3)
-                .background(
-                    RoundedRectangle(cornerRadius: 4)
-                        .fill(Color.primary.opacity(0.06))
-                )
+            // Transcription text area with scroll
+            ScrollViewReader { proxy in
+                ScrollView(.vertical, showsIndicators: true) {
+                    VStack(alignment: .leading, spacing: 0) {
+                        if appState.currentTranscription.isEmpty {
+                            Text("話してください...")
+                                .font(.system(size: 15))
+                                .foregroundColor(.secondary)
+                                .italic()
+                                .frame(maxWidth: .infinity, alignment: .leading)
+                        } else {
+                            Text(appState.currentTranscription)
+                                .font(.system(size: 15, weight: .regular))
+                                .foregroundColor(.primary)
+                                .frame(maxWidth: .infinity, alignment: .leading)
+                                .fixedSize(horizontal: false, vertical: true)
+                        }
+                        
+                        // Invisible anchor at the bottom for auto-scrolling
+                        Color.clear
+                            .frame(height: 1)
+                            .id("bottom")
+                    }
+                }
+                .onChange(of: appState.currentTranscription) { _ in
+                    // Auto-scroll to bottom when text changes
+                    withAnimation(.easeOut(duration: 0.15)) {
+                        proxy.scrollTo("bottom", anchor: .bottom)
+                    }
+                }
+            }
+            .frame(maxHeight: .infinity)
         }
-        .padding(.horizontal, 20)
+        .padding(.horizontal, 18)
         .padding(.vertical, 14)
-        .frame(minWidth: 400, maxWidth: 500)
+        .frame(width: 520, height: 200)
         .background(
             VisualEffectBlur()
         )

@@ -1,87 +1,86 @@
 # VoiceWriter
 
-VoiceWriter is a macOS menu bar app that records speech, transcribes it with Whisper, and pastes the recognized text into the currently active app.
+VoiceWriter は、音声を録音し、Whisper で文字起こしし、認識結果を現在アクティブなアプリへ貼り付ける macOS メニューバーアプリです。
 
-## Features
+## 主な機能
 
-- Global hotkey (`⌘⌥V`) to start/stop recording
-- Real-time overlay with streaming transcription preview
-- Japanese-focused transcription settings via WhisperKit
-- Automatic paste into the active application after processing
+- グローバルホットキー（`⌘⌥V`）で録音の開始/停止
+- ストリーミング文字起こしのプレビューをリアルタイムでオーバーレイ表示
+- WhisperKit を使った日本語向け文字起こし設定
+- 処理完了後、アクティブアプリへ自動貼り付け
 
-## Architecture
+## アーキテクチャ
 
-The app is built as a Swift Package and organized around a central state coordinator.
+このアプリは Swift Package として構成され、中央の状態管理コンポーネントを軸に動作します。
 
 - `VoiceWriterApp` (`Sources/VoiceWriter/VoiceWriterApp.swift`)
-  - Menu bar entry point and status UI
+  - メニューバー常駐アプリのエントリーポイントとステータス UI
 - `AppState` (`Sources/VoiceWriter/AppState.swift`)
-  - Orchestrates recording, transcription, overlay display, and text input
+  - 録音、文字起こし、オーバーレイ表示、テキスト入力を統括
 - `AudioRecorder` (`Sources/VoiceWriter/AudioRecorder.swift`)
-  - Captures microphone input, converts to 16kHz mono Float32, applies preprocessing
+  - マイク入力を取得し、16kHz モノラル Float32 へ変換して前処理を実施
 - `WhisperTranscriber` (`Sources/VoiceWriter/WhisperTranscriber.swift`)
-  - Loads Whisper model via WhisperKit and performs transcription/post-processing
+  - WhisperKit 経由でモデルを読み込み、文字起こしと後処理を実施
 - `OverlayPanel` + `OverlayView`
-  - Floating non-activating UI panel for recording/transcription feedback
+  - 録音/文字起こしの状況を表示する、フォーカスを奪わないフローティング UI
 - `TextInputSimulator` (`Sources/VoiceWriter/TextInputSimulator.swift`)
-  - Pastes final text into the active app (AppleScript, fallback CGEvent)
+  - 最終テキストをアクティブアプリに貼り付け（AppleScript、失敗時は CGEvent）
 - `HotkeyManager` (`Sources/VoiceWriter/HotkeyManager.swift`)
-  - Registers global hotkey through `HotKey`
+  - `HotKey` を使ってグローバルホットキーを登録
 
-### Data flow
+### データフロー
 
-1. User presses `⌘⌥V`
-2. `AppState` starts `AudioRecorder`
-3. `AudioRecorder` sends periodic buffers for streaming transcription
-4. `WhisperTranscriber` updates overlay text
-5. User presses `⌘⌥V` again
-6. Final transcription is post-processed and pasted into the active app
+1. ユーザーが `⌘⌥V` を押す
+2. `AppState` が `AudioRecorder` を開始
+3. `AudioRecorder` が一定間隔でバッファを送り、ストリーミング文字起こし
+4. `WhisperTranscriber` がオーバーレイ表示を更新
+5. ユーザーが再度 `⌘⌥V` を押す
+6. 最終文字起こしを後処理し、アクティブアプリへ貼り付け
 
-## Requirements
+## 動作要件
 
 - macOS 14+
 - Xcode command line tools (`xcode-select --install`)
-- Internet connection on first launch (model download)
+- 初回起動時にインターネット接続（モデルダウンロードのため）
 
-## Build and Run
+## ビルドと実行
 
-### Run from source
+### ソースから実行
 
 ```bash
 swift build
 swift run VoiceWriter
 ```
 
-### Build `.app` bundle
+### `.app` バンドルを作成
 
 ```bash
 ./scripts/build.sh
 open VoiceWriter.app
 ```
 
-## Permissions
+## 権限
 
-VoiceWriter requires the following macOS permissions:
+VoiceWriter の利用には、以下の macOS 権限が必要です。
 
-- **Microphone**: to capture voice input
-- **Accessibility**: to paste transcribed text into other apps
+- **マイク**: 音声入力を取得するため
+- **アクセシビリティ**: 他アプリへ文字起こし結果を貼り付けるため
 
-You can grant them in:
+以下から許可できます。
 
 - `System Settings > Privacy & Security > Microphone`
 - `System Settings > Privacy & Security > Accessibility`
 
-## Notes
+## 補足
 
-- The first model initialization may download about **950MB** (`large-v3-turbo`).
-- Recognition quality depends on microphone quality and background noise.
+- 初回モデル初期化時に **約950MB**（`large-v3-turbo`）のダウンロードが発生する場合があります。
+- 認識精度はマイク品質や周囲ノイズの影響を受けます。
 
-## Dependencies
+## 依存ライブラリ
 
 - [WhisperKit](https://github.com/argmaxinc/WhisperKit)
 - [HotKey](https://github.com/soffes/HotKey)
 
-## License
+## ライセンス
 
-MIT License. See `LICENSE`.
-
+MIT License。詳細は `LICENSE` を参照してください。

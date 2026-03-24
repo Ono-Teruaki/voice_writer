@@ -3,7 +3,7 @@ import Foundation
 
 /// Manages WhisperKit initialization and transcription.
 /// Uses the large-v3-turbo model for optimal speed/accuracy balance.
-/// Configured for high-accuracy Japanese transcription.
+/// Configured for high-accuracy Japanese transcription with punctuation.
 final class WhisperTranscriber: ObservableObject {
     private var whisperKit: WhisperKit?
     
@@ -46,6 +46,16 @@ final class WhisperTranscriber: ObservableObject {
         }
         guard !audioBuffer.isEmpty else { return "" }
         
+        // Initial prompt: punctuated natural Japanese to guide Whisper's output style.
+        // Whisper mimics the style of the prompt, so using properly punctuated sentences
+        // encourages it to output punctuation in the transcription.
+        let promptText = """
+        最近、生成AIやクラウドコンピューティングといった先端技術が急速に普及しています。\
+        特に、分散システムやアルゴリズムの効率化は重要な課題です。\
+        RustやPythonなどのプログラミング言語を用いて、スケーラブルなアプリケーションを構築する際には、\
+        メモリ管理や非同期処理の深い理解が求められます。
+        """
+        
         let options = DecodingOptions(
             verbose: false,
             language: "ja",
@@ -53,7 +63,7 @@ final class WhisperTranscriber: ObservableObject {
             temperatureFallbackCount: 0,
             usePrefillPrompt: true,
             skipSpecialTokens: true,
-            withoutTimestamps: true,
+            withoutTimestamps: false,
             suppressBlank: true,
             compressionRatioThreshold: nil,
             logProbThreshold: nil,
@@ -72,7 +82,7 @@ final class WhisperTranscriber: ObservableObject {
     
     // MARK: - Post-Processing
     
-    /// Clean up common Whisper artifacts and hallucinations
+    /// Clean up Whisper artifacts and ensure proper Japanese punctuation
     func postProcess(_ text: String) -> String {
         var result = text
         
@@ -87,8 +97,75 @@ final class WhisperTranscriber: ObservableObject {
             result = result.replacingOccurrences(of: hallucination, with: "")
         }
         
+        // Apply rule-based punctuation if Whisper didn't add enough
+        result = ensurePunctuation(result)
+        
         // Clean up extra whitespace
         result = result.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
+        
+        return result
+    }
+    
+    // MARK: - Rule-Based Punctuation
+    
+    /// Ensure proper Japanese punctuation using rule-based heuristics.
+    /// Only adds punctuation where it's clearly missing.
+    private func ensurePunctuation(_ text: String) -> String {
+        var result = text
+        
+        // 1. Add 。 after sentence-ending patterns if not already present
+        //    Patterns: です, ます, でした, ました, ません, でしょう, だ, た (at end of sentence)
+        let sentenceEndPatterns = [
+            ("です(?![。、。])", "です。"),
+            ("ます(?![。、。])", "ます。"),
+            ("でした(?![。、。])", "でした。"),
+            ("ました(?![。、。])", "ました。"),
+            ("ません(?![。、。])", "ません。"),
+            ("でしょう(?![。、。])", "でしょう。"),
+        ]
+        
+        for (pattern, replacement) in sentenceEndPatterns {
+            // Only add 。 when followed by a new sentence start (capital letter, kanji, hiragana start)
+            // or at the very end of the text
+            let regexPattern = pattern + "(?=[\\p{Han}\\p{Katakana}A-Z\"]|$)"
+            if let regex = try? NSRegularExpression(pattern: regexPattern) {
+                result = regex.stringByReplacingMatches(
+                    in: result,
+                    range: NSRange(result.startIndex..., in: result),
+                    withTemplate: replacement
+                )
+            }
+        }
+        
+        // 2. Add 、 before conjunctions/adverbs if missing
+        let conjunctions = [
+            "しかし", "また", "さらに", "特に", "例えば",
+            "一方", "ただし", "なお", "つまり", "そのため",
+            "それでは", "したがって", "ところが", "けれども"
+        ]
+        
+        for conj in conjunctions {
+            // Add 、 after the conjunction if it follows a sentence boundary or is at text start
+            // pattern: (。|^)(conjunction) → ensure 、 after conjunction
+            let afterPattern = conj + "(?![、,])"
+            let afterReplacement = conj + "、"
+            if let _ = try? NSRegularExpression(pattern: afterPattern) {
+                // Only replace when conjunction appears after 。 or at start of a clause
+                let checkAfter = "(?<=。)" + afterPattern
+                if let regexAfterPeriod = try? NSRegularExpression(pattern: checkAfter) {
+                    result = regexAfterPeriod.stringByReplacingMatches(
+                        in: result,
+                        range: NSRange(result.startIndex..., in: result),
+                        withTemplate: afterReplacement
+                    )
+                }
+            }
+        }
+        
+        // 3. Remove duplicate punctuation
+        result = result.replacingOccurrences(of: "。。", with: "。")
+        result = result.replacingOccurrences(of: "、、", with: "、")
+        result = result.replacingOccurrences(of: "。、", with: "。")
         
         return result
     }
